@@ -1,0 +1,7 @@
+POST http://localhost:8081/api/tasks
+Content-Type: application/json
+
+{
+  "title": "POST testen",
+  "completed": false
+}

@@ -2,7 +2,7 @@ package at.fhb221606.tasktrack3kapi;
 
 public class Task {
 
-    private int id = 0;
+    private Integer id = 0;
     private String title;
     private boolean completed;
 
@@ -10,10 +10,10 @@ public class Task {
 
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
-    public void setid(int id){
+    public void setId(Integer id){
         this.id = id;
     }
 
@@ -29,11 +29,11 @@ public class Task {
         return completed;
     }
 
-    public void setCompleted(boolean compelted){
+    public void setCompleted(boolean completed) {
         this.completed = completed;
     }
 
-    public Task(int id, String title, boolean completed) {
+    public Task(Integer id, String title, boolean completed) {
         this.id = id;
         this.title = title;
         this.completed = completed;
