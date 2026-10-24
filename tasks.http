@@ -1,7 +1,1 @@
-POST http://localhost:8081/api/tasks
-Content-Type: application/json
-
-{
-  "title": "POST testen",
-  "completed": false
-}
+DELETE http://localhost:8081/api/tasks/1
